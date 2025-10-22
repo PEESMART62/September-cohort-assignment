@@ -45,7 +45,7 @@ body {
  .lope {
     position: absolute;
     margin-top: 25px;
-    left: 27.5%;
+    left: 25%;
 }
  .username2 {
     height: 46px;
@@ -66,7 +66,7 @@ body {
  .padlock {
     position: absolute;
     margin-top: 15px;
-    left: 27.5%;
+    left: 25%;
  }
  .sign {
     font: 16px Roboto, sans-serif;
