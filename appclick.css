@@ -1,0 +1,151 @@
+body {
+     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    line-height: normal;
+    margin: 0;
+}
+.section-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.image-1 {
+    width: 150px;
+    height: 80px;
+    margin-top: 64%;
+    margin-left: 51%;
+ }
+ .user {
+    color: #444;
+    font-size: large; 
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    margin: 0px 0px 15px;
+    margin-left: 25%;
+    margin-top: 26%;
+ }
+ .username {
+    margin-top: 5%;
+    height: 46px;
+    border: 1px solid #dfdfdf;
+    background: transparent;
+    border-radius: 4px;
+    padding-left: 1.0rem;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    margin-left: 25%;
+    padding-right: 90%;
+    font-family: roboto, sans-serif;
+    position: relative;
+ }
+ .username:focus {
+    border-color: #35AA47;
+    outline: none;
+ }
+ .lope {
+    position: absolute;
+    margin-top: 25px;
+    left: 27.5%;
+}
+ .username2 {
+    height: 46px;
+    border: 1px solid #dfdfdf;
+    background: transparent;
+    border-radius: 4px;
+    padding-left: 1.0rem;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    margin-left: 25%;
+    padding-right: 90%;
+    font-family: roboto, sans-serif;
+    position: relative;
+ }
+ .username2:focus {
+    border-color: #35AA47;
+    outline: none;
+ }
+ .padlock {
+    position: absolute;
+    margin-top: 15px;
+    left: 27.5%;
+ }
+ .sign {
+    font: 16px Roboto, sans-serif;
+    background: #35AA47;
+    height: 46px;
+    border: 1px solid #35AA47;
+    border-radius: 4px;
+    width: 190%;
+    margin-left: 25%;
+    color: #FFFFFF;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+ }
+ .sign:hover {
+    background-color: #444;
+    border: 1px solid #444;
+    cursor: pointer;
+ }
+.fa1{
+    -webkit-transform: scaleX(-1);
+    margin-left: 25%;
+    font-size: 12px;
+
+}
+.forget {
+    color: #444;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: roboto, sans-serif;
+}
+.forget:hover {
+    text-decoration: underline;
+}
+::placeholder {
+    font-size:medium;
+}
+ .image-2 {
+    width: 900px;
+    height: 100vh;
+    object-fit: cover;
+ } 
+
+
+
+ @media(max-width:600px) {
+    .image-1 {
+        margin-top: 10%;
+        margin-left: 20%;
+    }    
+    .image-2 {
+        margin-top: 170%;
+        width: 140%;
+        margin-left: -85%;
+        height: 110%;
+    }
+    .lope {
+        margin-left: 30%;
+    }
+    .padlock {
+        margin-left:30%;
+    }
+    .user {
+        margin-top: 7%;
+        margin-left: 10%;
+    }
+    .username {
+        padding-right: 40%;
+        margin-left: 7%;
+    }
+    .username2 {
+        padding-right: 40%;
+        margin-left: 7%;
+    }
+    .sign {
+        width: 140%;
+        margin-left: 7%;
+    } 
+    .fa1 {
+        margin-left: 7%;
+    }
+ }
