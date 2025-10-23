@@ -115,35 +115,38 @@ body {
  @media(max-width:600px) {
     .image-1 {
         margin-top: 10%;
-        margin-left: 20%;
+        margin-left: 40%;
     }    
     .image-2 {
-        margin-top: 170%;
-        width: 140%;
+        margin-top: 220%;
+        width: 150%;
         margin-left: -85%;
-        height: 110%;
+        height: 150%;
     }
     .lope {
-        margin-left: 30%;
+        margin-left: 40%;
     }
     .padlock {
-        margin-left:30%;
+        margin-left:40%;
     }
     .user {
         margin-top: 7%;
         margin-left: 10%;
     }
     .username {
-        padding-right: 40%;
+        padding-right: 60%;
         margin-left: 7%;
+        height: 40px;
     }
     .username2 {
-        padding-right: 40%;
+        padding-right: 60%;
         margin-left: 7%;
+        height: 40px;
     }
     .sign {
-        width: 140%;
+        width: 160%;
         margin-left: 7%;
+        height: 40px;
     } 
     .fa1 {
         margin-left: 7%;
