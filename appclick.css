@@ -9,6 +9,7 @@ body {
 .section-btn {
     display: flex;
     justify-content: space-between;
+    height: 100vh;
 }
 .image-1 {
     width: 150px;
@@ -25,7 +26,7 @@ body {
     margin-left: 25%;
     margin-top: 26%;
  }
- .username {
+ .username, .username2{
     margin-top: 5%;
     height: 46px;
     border: 1px solid #dfdfdf;
@@ -34,39 +35,23 @@ body {
     padding-left: 1.0rem;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
     margin-left: 25%;
-    padding-right: 90%;
+    padding-right: 100%;
     font-family: roboto, sans-serif;
     position: relative;
  }
- .username:focus {
+ .username:focus,.username2:focus{
     border-color: #35AA47;
     outline: none;
  }
  .lope {
     position: absolute;
     margin-top: 25px;
-    left: 25%;
-}
- .username2 {
-    height: 46px;
-    border: 1px solid #dfdfdf;
-    background: transparent;
-    border-radius: 4px;
-    padding-left: 1.0rem;
-    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
-    margin-left: 25%;
-    padding-right: 90%;
-    font-family: roboto, sans-serif;
-    position: relative;
- }
- .username2:focus {
-    border-color: #35AA47;
-    outline: none;
+    left: 26%;
  }
  .padlock {
     position: absolute;
-    margin-top: 15px;
-    left: 25%;
+    margin-top: 25px;
+    left: 26%;
  }
  .sign {
     font: 16px Roboto, sans-serif;
@@ -74,7 +59,7 @@ body {
     height: 46px;
     border: 1px solid #35AA47;
     border-radius: 4px;
-    width: 190%;
+    width: 199%;
     margin-left: 25%;
     color: #FFFFFF;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
@@ -108,47 +93,42 @@ body {
     width: 900px;
     height: 100vh;
     object-fit: cover;
- } 
+    border-radius: 0% 1% 1% 0%;
+
+ }  
 
 
 
- @media(max-width:600px) {
-    .image-1 {
+ @media screen and (max-width: 775px) {
+     .section-btn {
+        flex-direction: column;
+     }
+     .image-1 {
+        margin-top:5%;
+        margin-left: 15%;
+     }  
+     .user {
         margin-top: 10%;
+        margin-left: 5%;
+     }
+     .username, .username2 {
+        margin-left: 3%;
+        padding-right: 8rem;
+     }
+     .sign {
+        margin-left: 3%;
+        width: 19rem;
+     }
+     .fa1 {
+        margin-left: 3%;
+     }
+     .lope, .padlock {
         margin-left: 40%;
-    }    
-    .image-2 {
-        margin-top: 220%;
-        width: 150%;
-        margin-left: -85%;
-        height: 150%;
-    }
-    .lope {
-        margin-left: 40%;
-    }
-    .padlock {
-        margin-left:40%;
-    }
-    .user {
-        margin-top: 7%;
-        margin-left: 10%;
-    }
-    .username {
-        padding-right: 60%;
-        margin-left: 7%;
-        height: 40px;
-    }
-    .username2 {
-        padding-right: 60%;
-        margin-left: 7%;
-        height: 40px;
-    }
-    .sign {
-        width: 160%;
-        margin-left: 7%;
-        height: 40px;
-    } 
-    .fa1 {
-        margin-left: 7%;
-    }
+        margin-top: 9%;
+     }
+     .image-2 {
+        width: 100vw;
+     }
+
  }
+ 
