@@ -46,12 +46,12 @@ body {
  .lope {
     position: absolute;
     margin-top: 25px;
-    left: 26%;
+    left: 30%;
  }
  .padlock {
     position: absolute;
     margin-top: 25px;
-    left: 26%;
+    left: 30%;
  }
  .sign {
     font: 16px Roboto, sans-serif;
@@ -94,8 +94,13 @@ body {
     height: 100vh;
     object-fit: cover;
     border-radius: 0% 1% 1% 0%;
-
  }  
+
+#newbtn {
+   border: none;
+   margin-top: 7px;
+   width: 80px;
+} 
 
 
 
