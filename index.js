@@ -4,15 +4,7 @@
 
   btnNew.addEventListener("click", function(){
     welcome.replaceWith("Welcome!");
-//   const newElement = document.createElement("span");
-//    newElement.textContent = "Welcome!";
-//    document.body.appendChild(newElement);
    });
-
-
-
-
-
 
 
 const username = document.querySelector(".username");
