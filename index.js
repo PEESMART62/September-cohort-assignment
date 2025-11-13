@@ -12,6 +12,7 @@ const password = document.querySelector(".username2");
 const btn = document.querySelector(".sign");
 
 
+
 btn.addEventListener("click", function () {
     const usernameValue = username.value;
     const passwordValue = password.value;
